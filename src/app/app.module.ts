@@ -9,6 +9,7 @@ import { ItemCategoryComponent } from './item-category/item-category.component';
 import { ItemBrandsComponent } from './item-category/item-brands/item-brands.component';
 import { ProductGridComponent } from './product-grid/product-grid.component';
 import { FooterComponent } from './footer/footer.component';
+import { BannerComponent } from './banner/banner.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { FooterComponent } from './footer/footer.component';
     ItemCategoryComponent,
     ItemBrandsComponent,
     ProductGridComponent,
-    FooterComponent
+    FooterComponent,
+    BannerComponent
   ],
   imports: [
     BrowserModule,
